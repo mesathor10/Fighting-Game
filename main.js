@@ -6,7 +6,6 @@ let p2NameDiv = document.getElementById('p2Name')
 let p1HealthDiv = document.getElementById('p1Health')
 let p2HealthDiv = document.getElementById('p2Health')
 
-
 const updateGame = (p1,p2,gameState) => {
   
 p1NameDiv.innerText = p1.name
@@ -110,8 +109,8 @@ this.reset(p1,p2);
 
 
 
-let player1 = new Player('Sathish', 100, 10)
-let player2 = new Player('Sanjith', 100, 10)
+let player1 = new Player('Naruto', 100, 10)
+let player2 = new Player('Sasuke', 100, 10)
 
 let p1 = player1;
 let p2 = player2;
@@ -147,16 +146,6 @@ document.getElementById('p1heal').play()
 }
 });
 
-
-document.addEventListener('keydown', function(e) {
-  
-  
-if(e.key == 'p' && p1.health > 0 && game.isOver == false) {
-    
-p2.strike(p2,p1,p2.attackDmg)
-  document.getElementById('p2attack').play()
-}
-});
 
 document.addEventListener('keydown', function(e) {
   
