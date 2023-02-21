@@ -19,10 +19,10 @@ body {
   align-items: center;
 }
 
-#p1 {
+/* #p1 {
   width:100px;
   height:100px;
-}
+} */
 
 .p1Info {
   display: flex;
@@ -42,8 +42,10 @@ body {
 }
 
 #p2{
-  width:100px;
-  height:100px;
+  width:200px;
+  height:200px;
+  
+  transform: scaleX(-1);
 }
 
 
