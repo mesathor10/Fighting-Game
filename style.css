@@ -19,11 +19,6 @@ body {
   align-items: center;
 }
 
-/* #p1 {
-  width:100px;
-  height:100px;
-} */
-
 .p1Info {
   display: flex;
   flex-direction: column;
@@ -42,8 +37,8 @@ body {
 }
 
 #p2{
-  width:200px;
-  height:200px;
+  width: 200px;
+  height: 200px;
   transform: scaleX(-1);
 }
 
